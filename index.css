@@ -1,0 +1,14 @@
+#cardarea{
+    width: 60vw;
+    margin: auto;
+}
+#notearea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#title{
+    height: 2rem;
+}
+#textarea{
+    height: 8rem;
+}
