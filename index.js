@@ -41,7 +41,7 @@ function shownotes() {
     else {
         let html = "";
         notearr.forEach(function (element, index) {
-            html += ` <div class="card bg-info mx-2 my-2 text-light " style="width: 18rem;">
+            html += ` <div class="card bg-info mx-2 my-2 text-light ">
             <div class="card-body">
               <h5 class="card-title text-warning">${element.title}</h5>
               <p class="card-text">${element.txt}</p>
